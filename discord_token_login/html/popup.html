@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Discord Login</title>
     <link rel="stylesheet" href="/css/popup_style.css">
 </head>
@@ -8,12 +9,12 @@
     <h1>Welcome Back!</h1>
     <h2>Token</h2>
     <h3>Status:</h3>
-    <h4 id="status">Waiting For a Token</h4>
-    <a class="developer info" href="https://discord.ceo" target="_blank">Developer</a>
+    <p id="status">Waiting for a Token</p>
+    <a class="developer-info" href="https://discord.ceo" target="_blank">Developer</a>
     <a href="https://porkbun.com/single-tear.html" target="_blank">Don't have a token?</a>
     <img src="/img/qrcode.png" alt="Italian Trulli">
-    <input class="input token" type="text" id="token">
-    <button class="button login">Login</button>
+    <input class="token-input" type="text" id="token">
+    <button class="login-button">Login</button>
+    <script src="/js/popup.js"></script>
 </body>
-<script src="/js/popup.js"></script>
 </html>
