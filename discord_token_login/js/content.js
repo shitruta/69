@@ -4,7 +4,7 @@ chrome.runtime.onMessage.addListener(function(token) {
     }, 50);
     setTimeout(() => {
     location.reload();
-    chrome.runtime.sendMessage({status: "conected"}, function(response) {
+    chrome.runtime.sendMessage({status: "connected"}, function(response) {
         console.log("I sended a message");
     });
     }, 2500);
